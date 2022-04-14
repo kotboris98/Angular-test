@@ -6,4 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  public attributes = { id: 'hello' };
+
+  public onClick() {
+    this.attributes = { id: 'paragraph' };
+  }
 }
