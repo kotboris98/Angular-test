@@ -11,6 +11,7 @@ import { AttributeDirective } from './attribute.directive';
     AppComponent,
     CardComponent,
     AttributeDirective
+    NewPipePipe
   ],
   imports: [
     BrowserModule,
